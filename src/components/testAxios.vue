@@ -1,18 +1,18 @@
 <template></template>
 <script lang="ts">
-import { defineComponent } from "vue";
-import axios from "../api/index";
+import { defineComponent } from 'vue'
+import axios from '../api/index'
 
 export default defineComponent({
   setup() {
     axios
-      .get("/users/XPoet")
-      .then(res => {
-        console.log("res: ", res);
+      .get('/users/XPoet')
+      .then((res) => {
+        console.log('res: ', res)
       })
-      .catch(err => {
-        console.log("err: ", err);
-      });
+      .catch((err) => {
+        console.log('err: ', err)
+      })
   }
-});
+})
 </script>

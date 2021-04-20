@@ -7,17 +7,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import testAxios from "./components/testAxios.vue";
+import { defineComponent } from 'vue'
+import testAxios from './components/testAxios.vue'
 export default defineComponent({
-  name: "App",
+  name: 'App',
   components: {
     testAxios
   }
-});
+})
 </script>
 
-<style lang='stylus' scoped>
+<style lang="stylus" scoped>
 .test {
   color: red;
   background-color: pink;

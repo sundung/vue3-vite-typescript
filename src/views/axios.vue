@@ -1,14 +1,9 @@
 <template>
-  <div>
-    axios
-  </div>
+  <div>axios</div>
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
-<style>
-</style>
+<style></style>
